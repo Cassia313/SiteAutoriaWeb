@@ -39,9 +39,25 @@ section p {
     font-size: 1.1rem;
     line-height: 1.5;
 }
-footer {
+
+header > div {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    gap: 2rem;
+}
+
+header > div > div {
+    display: flex;
+    gap: 2rem;
+}
+
+header > div > div > img {
+    width: 40px; /* Tamanho largura setas e home*/
+    height: 40px; /* Tamanho espessura setas e home*/
+    cursor: pointer;
+}
+
+header > div > img {
+    width: 180px; /* A logo maior */
+    height: auto;
 }
