@@ -1,63 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Jacquard 12", system-ui;
-}
 body {
-    background-color: #f4f0ea;
-    color: black;
-    font-family: "Itim", cursive;
-    font-weight: 400;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
+
 header {
-    padding: 2rem;
-    background-color: #CBC3E3;
+    background-color: #cfc8f5;
+    padding: 10px;
     display: flex;
     align-items: center;
-    gap: 1rem;
 }
-section{
-    width: 1200px;
-    margin: auto;
+header img {
+    height: 100px;
+    margin-right: 20px;
+}
+header h1 {
+    font-family: cursive;
+    color: #000;
+}
+
+main {
+    background-color: #3d3d3d;
+    padding: 30px;
+    min-height: 300px;
+}
+.linha-botoes {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1.5rem; /* espaço entre imagem e texto */
-    padding: 1rem;
-    border-radius: 8px;
+    gap: 20px;
+    margin-bottom: 20px;
 }
-section img {
-    width: 150px;
-    height: auto;
-    border-radius: 8px;
-}
-
-section p {
-    font-size: 1.1rem;
-    line-height: 1.5;
-}
-
-header > div {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-
-header > div > div {
-    display: flex;
-    gap: 2rem;
-}
-
-header > div > div > img {
-    width: 40px; /* Tamanho largura setas e home*/
-    height: 40px; /* Tamanho espessura setas e home*/
+.btn {
+    flex: 1;
+    padding: 40px;
+    border: none;
     cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
-header > div > img {
-    width: 180px; /* A logo maior */
-    height: auto;
+footer {
+    background-color: #2e2e2e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+footer section {
+    display: flex;
+    align-items: center;
+}
+footer img {
+    height: 100px;
+    margin-right: 10px;
 }
