@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jacquard 12", system-ui;
+}
+body {
+    background-color: #f4f0ea;
+    color: black;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+}
+header {
+    padding: 2rem;
+    background-color: #CBC3E3;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+section{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem; /* espaço entre imagem e texto */
+    padding: 1rem;
+    border-radius: 8px;
+}
+section img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header > div > div {
+    display: flex;
+    gap: 2rem;
+}
+
+header > div > div > img {
+    width: 40px; /* Tamanho largura setas e home*/
+    height: 40px; /* Tamanho espessura setas e home*/
+    cursor: pointer;
+}
+
+header > div > img {
+    width: 180px; /* A logo maior */
+    height: auto;
+}
