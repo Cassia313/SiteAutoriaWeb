@@ -6,6 +6,12 @@
     box-sizing: border-box;
     font-family: "Jacquard 12", system-ui;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Espaço igual entre cada section */
+    padding: 2rem 0;
+}
 body {
     background-color: #f4f0ea;
     color: black;
@@ -33,6 +39,12 @@ section img {
     width: 150px;
     height: auto;
     border-radius: 8px;
+}
+
+section h2 {
+    font-family: "Jacquard 12", system-ui;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 section p {
